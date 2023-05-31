@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "798499748890",
+    "firebase_url": "https://smart-parking-40f00-default-rtdb.firebaseio.com",
+    "project_id": "smart-parking-40f00",
+    "storage_bucket": "smart-parking-40f00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798499748890:android:65a105ef7c01b8281fa5a3",
+        "android_client_info": {
+          "package_name": "com.example.smartparkingmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798499748890-0rc0m6lebk7fhk3v4jdod21srmpc0d1t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbFMV8pH3uwWll0jM7QwZAsGY87HpWSc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798499748890-0rc0m6lebk7fhk3v4jdod21srmpc0d1t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798499748890:android:ddf932861e114ca61fa5a3",
+        "android_client_info": {
+          "package_name": "com.example.smartparkingsystemm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798499748890-0rc0m6lebk7fhk3v4jdod21srmpc0d1t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbFMV8pH3uwWll0jM7QwZAsGY87HpWSc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798499748890-0rc0m6lebk7fhk3v4jdod21srmpc0d1t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

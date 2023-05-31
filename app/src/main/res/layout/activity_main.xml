@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="104dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/car" />
+
+    <TextView
+        android:id="@+id/appNameTextView"
+        android:layout_below="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+        android:text="Smart Parking System"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:textColor="@color/bluesky"
+        android:textSize="28sp"
+       />
+
+    <TextView
+        android:id="@+id/appDescriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appNameTextView"
+        android:text="Find and reserve parking spaces efficiently."
+        android:textColor="@color/bluesky"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:singleLine="true"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        />
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="390dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/appDescriptionTextView"
+        android:layout_centerHorizontal="true"
+        android:elevation="200dp"
+        android:text="Sign In"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:background="@drawable/arrondir"
+        android:layout_marginTop="29dp"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_below="@+id/signInButton"
+        android:layout_width="390dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="200dp"
+        android:text="Sign Up"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:background="@drawable/arrondir"
+        android:layout_marginTop="29dp"
+         />
+
+</RelativeLayout>

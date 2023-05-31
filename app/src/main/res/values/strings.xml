@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Smart Parking System</string>
+    <string name="show_active_reservation">Show active reservation</string>
+    <string name="check_reservations_by_pressing_this_button">Check reservations by pressing this button</string>
+    <string name="search_parking">Search parking</string>
+    <string name="parking_name">Parking Name</string>
+    <string name="parking_address">Parking Address</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="total_spaces">Total Spaces</string>
+    <string name="add_parking">Add Parking</string>
+    <string name="parking_added_success">Parking added successfully</string>
+    <string name="parking_added_failure">Error, could not add parking</string>
+</resources>

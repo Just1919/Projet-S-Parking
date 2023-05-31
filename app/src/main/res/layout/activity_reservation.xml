@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reservation Date"
+        android:id="@+id/TextIns"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:singleLine="true"
+        android:layout_marginBottom="15dp"
+        android:elevation="50dp"
+        android:textAppearance="?attr/textAppearanceHeadline5"
+        />
+
+
+
+
+    <Button
+        android:id="@+id/dateButton"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:elevation="200dp"
+        android:text="Choose Date"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/arrondir"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reservation Time"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:singleLine="true"
+        android:layout_marginBottom="1dp"
+        android:elevation="50dp"
+        android:textAppearance="?attr/textAppearanceHeadline5"
+        />
+
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/durationTitleTextView"
+        android:text="Reservation Duration in hours"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:singleLine="true"
+        android:layout_marginBottom="1dp"
+        android:elevation="50dp"
+        android:textAppearance="?attr/textAppearanceHeadline5"
+        />
+
+
+    <NumberPicker
+        android:id="@+id/durationNumberPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="93dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/submitReservationButton"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:elevation="200dp"
+        android:text="Submit Reservation"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/arrondir"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        />
+
+
+    <Button
+        android:id="@+id/cancelReservationButton"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:elevation="200dp"
+        android:text="Cancel Reservation"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/arrondir"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        />
+
+
+
+
+
+</LinearLayout>
